@@ -10,8 +10,8 @@ form.onsubmit=function(event){
   let age=parseInt(document.querySelector("input#age").value)
 if (age>17) {
 
-votingLinks.removeAttribute("class");
-
+  votingLinks.removeAttribute("class");
+  
 } else {
 votingInfo.removeAttribute("class");
 }
