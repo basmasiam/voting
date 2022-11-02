@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting</title>
+</head>
+<body>
+  <form>
+    <label for ="age">Please, Enter your age</label>
+    <input id="age" type="number">
+    <button type="submit">submit</button>
+  </form>
+  <div id="above-18" class="hidden">
+    <h1 id="voters"></h1>
+    <h1>Please Register on the following website</h1>
+    <a href="https://sos.oregon.gov/voting/pages/registration.aspx?lang=en">Click here to register!</a>
+    <h1>More voter information below:</h1>
+    <ul>
+      <li><a href="https://ballotpedia.org/Voting_in_Oregon">Oregon Voter Registration Requirements</a></li>
+      <li><a href="https://oregonvotes.gov/voters-guide/english/votersguide.html">Oregon Voters' Guide</a></li>
+      <li><a href="https://sos.oregon.gov/voting-elections/Pages/default.aspx">Voting FAQ</a></li>
+    </ul>
+  </div>
+  <div id="below-18" class="hidden">
+    <h1>You must be 18 or older to vote</h1>
+    <h1>Check out some more voter information below:</h1>
+    <ul>
+      <li><a href="https://ballotpedia.org/Voting_in_Oregon">Oregon Voter Registration Requirements</a></li>
+      <li><a href="https://www.ncsl.org/research/elections-and-campaigns/primaries-voting-age.aspx">National Primary Voting Age</a></li>
+      <li><a href="https://constitutioncenter.org/the-constitution/amendments/amendment-xxvi">Constitutional Right to Vote at Age 18</a></li>
+    </ul>
+  </div>
+</body>
+</html>
